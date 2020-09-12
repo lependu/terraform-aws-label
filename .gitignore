@@ -1,0 +1,15 @@
+# GIT
+.git
+
+# Compiled files
+**/*.tfstate
+**/*.tfstate.*
+
+# Terraform module directory
+**/.terraform
+
+# Terraform variable files
+**/*.tfvars
+
+# Keep varfile for terraform cloud
+!*.auto.tfvars
