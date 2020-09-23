@@ -12,6 +12,6 @@ locals {
     "Name"      = local.label
     "Namespace" = local.namespace
     "Stage"     = local.stage
-    "ManagedBy" = "${var.user}@${var.namespace}"
+    "ManagedBy" = var.user
   }, var.additional_tag_map)
 }

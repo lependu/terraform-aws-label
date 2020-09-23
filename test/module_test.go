@@ -30,7 +30,7 @@ func TestExamplesComplete(t *testing.T) {
 
   assert.Equal(t, "London", tags["City"])
   assert.Equal(t, "terraform_test_label", tags["Name"])
-  assert.Equal(t, "admin@terraform", tags["ManagedBy"])
+  assert.Equal(t, "admin", tags["ManagedBy"])
   assert.Equal(t, "terraform", tags["Namespace"])
   assert.Equal(t, "test", tags["Stage"])
 }
